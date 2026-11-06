@@ -1,4 +1,4 @@
-# Build artifacts
+# Generated LaTeX files (figure PDFs remain trackable).
 *.aux
 *.log
 *.out
@@ -11,13 +11,12 @@
 *.fls
 *.fdb_latexmk
 *.xdv
-*.pdf
-
+/article.pdf
 /build/
-example/build/*
-dist/
+/dist/
+/.ci-fontcheck/
 
-# OS / editor
+# OS and editor files.
 .DS_Store
 *.swp
 *~
